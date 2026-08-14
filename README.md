@@ -24,12 +24,12 @@ Features
 * Sample data using `data.sql`
 
 Clone the Project
-For clonning git must be installed on your system and run the following command in command prompt opened in your desired working directory.
+For clonning, git must be installed on your system and run the following command in command prompt opened in your desired working directory.
 
 git clone https://github.com/salmansw21/SpringBoot-REST-API
 
 
-Open the cloned project in **Eclipse**:
+Open the cloned project in Eclipse or any other IDE:
 
 
 File → Import → Maven → Existing Maven Projects
@@ -45,7 +45,8 @@ Update your MySQL username and password.
 
 Default
 
-Username : root 
+Username : root
+
 Password : root
 
 
@@ -60,20 +61,6 @@ The API will normally run on:
 http://localhost:8080
 
 
-API Endpoints
-
-Replace the endpoints below with your actual endpoints if different.
-
-| Method | Endpoint      | Purpose        |
-| ------ | ------------- | -------------- |
-| GET    | `/users`      | Get all users  |
-| GET    | `/users/{id}` | Get user by ID |
-| POST   | `/users`      | Create user    |
-| PUT    | `/users/{id}` | Update user    |
-| DELETE | `/users/{id}` | Delete user    |
-
-POST Example
-
 Use **Postman** to send JSON requests and test the API.
 
 Notes
@@ -87,4 +74,4 @@ Contact
 
 If you face any problem while setting up or running the project, feel free to contact me:
 
-Email: salman@gmail.com
+Email: salmansw21@gmail.com
